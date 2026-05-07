@@ -85,14 +85,14 @@ Dự án triển khai và so sánh 3 kiến trúc Deep Learning:
 
 ---
 
-## 🌤️ Weather Forecasting with Deep Learning (English)
+##  Weather Forecasting with Deep Learning (English)
 
 Multi-step temperature forecasting on the **Jena Climate** dataset using three deep-learning architectures implemented in PyTorch.
 
-### 📍 Task
+###  Task
 Predict the next **12 hours** of temperature ($T$) given **96 hours** of historical weather data, using an hourly sub-sampled version of the dataset.
 
-### 🏗️ Project Structure
+###  Project Structure
 ```text
 projectDL/
 ├── config.py          # All hyperparameters & paths
@@ -100,7 +100,7 @@ projectDL/
 ├── models.py          # LSTMSeq2Seq · LSTMAttention · TransformerModel
 ├── trainer.py         # Training loop, Early Stopping, Scheduled Sampling
 ├── evaluate.py        # Metrics, forecast & history plots
-├── train.py           # 🚀 Main entry-point (CLI)
+├── train.py           # Main entry-point (CLI)
 ├── requirements.txt
 ├── data/              # Raw CSV (auto-downloaded)
 ├── checkpoints/       # Saved model weights (best_*.pth)
@@ -148,7 +148,7 @@ um_layers | 2 |
 # 1. Install dependencies
 pip install -r requirements.txt
 
-# 2. Train all three models (data auto-downloads on first run)
+# 2. Train all three models 
 python train.py
 
 # 3. Train a single model
